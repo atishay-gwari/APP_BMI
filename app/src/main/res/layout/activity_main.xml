@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/colBackground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:text="@string/heading"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="@string/weight"
+        android:inputType="number"
+        android:id="@+id/weight"
+        android:importantForAutofill="no" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="@string/htft"
+        android:inputType="number"
+        android:id="@+id/heightft"
+        android:importantForAutofill="no" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="@string/hti"
+        android:inputType="number"
+        android:id="@+id/heightinch"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:padding="15dp"
+        android:id="@+id/btncheck"
+        android:text="@string/cal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textSize="21sp"
+        android:id="@+id/txtResult"/>
+
+</LinearLayout>
